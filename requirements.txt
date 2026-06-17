@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.10
+streamlit>=1.40
+pandas>=2.0
+requests>=2.31
+python-dotenv>=1.0
+openai>=1.30
+torch>=2.3
+transformers>=4.40
