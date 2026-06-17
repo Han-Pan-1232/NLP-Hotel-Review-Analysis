@@ -1,5 +1,45 @@
-# HOTALAR
+# Hotel Review Analysis System
 
-A demo hotel review intelligence app. The backend (FastAPI) runs BERT-based sentiment and aspect-sentiment analysis on guest reviews and uses OpenAI to draft reply suggestions in three different tones. The frontend (Streamlit) provides an inbox for staff to browse reviews, generate replies, and view a dashboard of aggregate metrics.
+## Project Overview
 
-To run locally: create a virtualenv, `pip install -r requirements.txt`, drop an `OPENAI_API_KEY` into a `.env` file, then start the backend with `uvicorn main:app --reload` and the frontend with `streamlit run streamlit_app.py` in a separate terminal. The first backend launch downloads the BERT models from HuggingFace (~1.4 GB) into a local `models/` folder. A 30-row `test_data.csv` is included for quick demo.
+This project applies Natural Language Processing (NLP) techniques to analyze hotel reviews and extract valuable insights from customer feedback.
+
+The system processes large volumes of unstructured review data and performs sentiment analysis, keyword extraction, and review classification to help understand customer satisfaction and identify service improvement opportunities.
+
+---
+
+## My Responsibilities
+
+- Data preprocessing and cleaning
+- Text feature extraction
+- Sentiment analysis
+- NLP model training and evaluation
+- Result visualization and interpretation
+
+---
+
+## Key Features
+
+- Hotel review sentiment classification
+- Text preprocessing pipeline
+- Customer feedback analysis
+- Review trend identification
+- Data-driven insights generation
+
+---
+
+## Technologies
+
+- Python
+- NLP
+- NLTK
+- Scikit-learn
+- Pandas
+- NumPy
+- Jupyter Notebook
+
+---
+
+## Project Outcome
+
+Successfully developed an NLP-based review analysis system capable of transforming unstructured hotel review data into actionable insights for customer satisfaction analysis and service quality evaluation.
